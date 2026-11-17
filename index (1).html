@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aptha K V | Professional Portfolio</title>
+<style>
+:root{--navy:#17324d;--blue:#376b91;--pale:#edf4f8;--ink:#243746;--muted:#607382;--white:#fff}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#f7f9fb;line-height:1.65}
+header{background:linear-gradient(120deg,#17324d,#376b91);color:white;padding:54px 8% 48px}
+header .eyebrow{letter-spacing:2px;text-transform:uppercase;font-size:.78rem;opacity:.85}
+header h1{font-size:clamp(2.2rem,5vw,3.7rem);line-height:1.12;margin:12px 0}
+header p{max-width:760px;font-size:1.12rem;margin:12px 0 0;color:#e5eff6}
+nav{position:sticky;top:0;background:white;box-shadow:0 2px 12px #10283a12;display:flex;justify-content:center;flex-wrap:wrap;gap:8px;padding:12px 4%;z-index:5}
+nav a{color:var(--navy);text-decoration:none;padding:8px 13px;border-radius:20px;font-size:.93rem;font-weight:600}
+nav a:hover{background:var(--pale)}
+main{max-width:1050px;margin:35px auto;padding:0 22px}
+section{background:white;border:1px solid #e4ebf0;border-radius:15px;padding:30px;margin:22px 0;box-shadow:0 6px 22px #17324d08}
+h2{color:var(--navy);font-size:1.65rem;margin:0 0 14px}
+h3{color:var(--blue);margin:0 0 8px}
+.lead{font-size:1.08rem;color:#42596a}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
+.tile{background:var(--pale);border-radius:12px;padding:18px}
+.tile p{margin:6px 0 0;color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:9px}
+.tag{background:var(--pale);color:var(--navy);padding:7px 12px;border-radius:20px;font-size:.9rem}
+.project{border-left:4px solid var(--blue);padding:4px 0 4px 17px;margin:20px 0}
+.meta{font-size:.92rem;color:var(--muted);font-weight:600}
+a{color:#245f88}
+.contact a{display:inline-block;margin:5px 12px 5px 0}
+footer{text-align:center;padding:28px;color:var(--muted);font-size:.9rem}
+@media(max-width:600px){header{padding:38px 6%}section{padding:22px 18px}nav{gap:2px}nav a{font-size:.84rem;padding:7px 9px}}
+</style>
+</head>
+<body>
+<header id="home">
+  <div class="eyebrow">Computer Science &amp; Engineering Student</div>
+  <h1>Hi, I'm Aptha K V</h1>
+  <p>Aspiring Data Analyst &amp; Software Developer — exploring data, building applications, and creating technology-driven solutions to real-world problems.</p>
+</header>
+<nav aria-label="Main navigation">
+  <a href="#home">Home</a><a href="#about">About Me</a><a href="#education">Education</a>
+  <a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+</nav>
+<main>
+<section id="about">
+  <h2>About Me</h2>
+  <p class="lead">I am a Computer Science and Engineering student at Alva's Institute of Engineering and Technology, Karnataka, with an interest in Data Analytics, Software Development, and emerging technologies.</p>
+  <p>I enjoy learning how technology can solve practical problems. Through academic and personal projects, I have explored data processing, web application development, machine learning, and blockchain-based verification. I am continuing to strengthen my technical and analytical skills and looking for opportunities to learn, contribute, and grow.</p>
+  <div class="grid">
+    <div class="tile"><h3>Career interests</h3><p>Data Analyst · Software Developer · Full-Stack Developer</p></div>
+    <div class="tile"><h3>What I enjoy</h3><p>Analyzing information, solving problems, and building useful applications.</p></div>
+  </div>
+</section>
+<section id="education">
+  <h2>Education</h2>
+  <div class="project"><h3>Bachelor of Engineering — Computer Science and Engineering</h3><div class="meta">Alva's Institute of Engineering and Technology · 2023–Present</div><p>Currently pursuing B.E. in Computer Science and Engineering. CGPA: 8.48 (as last provided).</p></div>
+  <div class="project"><h3>Pre-University Course (PUC)</h3><div class="meta">BGS PU College, Sringeri · 2021–2023</div><p>Percentage: 91.16%</p></div>
+  <div class="project"><h3>SSLC</h3><div class="meta">Darshini Composite High School, Sringeri · 2020–2021</div><p>Percentage: 92%</p></div>
+</section>
+<section id="skills">
+  <h2>Technical Skills</h2>
+  <p class="lead">Technologies and tools I have studied or used in projects:</p>
+  <div class="tags">
+    <span class="tag">Python</span><span class="tag">SQL</span><span class="tag">Java</span>
+    <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+    <span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Express.js</span>
+    <span class="tag">MongoDB</span><span class="tag">Flask</span><span class="tag">Machine Learning</span>
+    <span class="tag">NLP</span><span class="tag">Excel</span><span class="tag">Power BI</span>
+    <span class="tag">Git &amp; GitHub</span>
+  </div>
+  <p><strong>Core strengths:</strong> Analytical thinking, problem-solving, continuous learning, and teamwork.</p>
+</section>
+<section id="projects">
+  <h2>Selected Projects</h2>
+  <div class="project">
+    <h3>TruthGuard — Fake News Detection and Verification Tool</h3>
+    <div class="meta">Python · Flask · NLP · Machine Learning</div>
+    <p>Developed a web-based tool that analyzes news text and classifies content as real, fake, or suspicious. Explored text preprocessing, machine-learning models, credibility indicators, and fact-checking support.</p>
+  </div>
+  <div class="project">
+    <h3>Hostel Complaint Management System</h3>
+    <div class="meta">MongoDB · Express.js · React · Node.js</div>
+    <p>Built a web application concept for submitting, tracking, and managing hostel complaints, with separate user and administrator workflows.</p>
+  </div>
+  <div class="project">
+    <h3>BlockAuth / VeriTrace — Product Verification Framework</h3>
+    <div class="meta">Blockchain · Solidity · QR Codes · Python</div>
+    <p>Worked on a product-authentication project combining QR-based verification, blockchain records, hash checking, and location-continuity tracking to help identify suspicious product movement.</p>
+  </div>
+</section>
+<section id="headline">
+  <h2>Professional Headline</h2>
+  <p class="lead"><strong>Aspiring Data Analyst &amp; Software Developer | Analyzing Data, Building Applications, and Developing Technology-Driven Solutions to Solve Real-World Problems.</strong></p>
+</section>
+<section id="contact" class="contact">
+  <h2>Contact &amp; Connect</h2>
+  <p>I welcome opportunities to learn, collaborate, and contribute to projects in data analytics and software development.</p>
+  <a href="https://github.com/Apthahegde" target="_blank" rel="noopener">GitHub</a>
+  <a href="https://www.linkedin.com/in/aptha-kv/" target="_blank" rel="noopener">LinkedIn</a>
+</section>
+</main>
+<footer>© 2026 Aptha K V · Professional ePortfolio</footer>
+</body>
+</html>
